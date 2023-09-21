@@ -32,9 +32,9 @@ For detailed instruction, refer to the [Hugo Module documentation](https://gohug
     # import this repository as a hugo module
     module:
       imports:
-        - path: "github.com/usnistgov/hugo-uswds"
+        - path: "github.com/usnistgov/hugo-uswds-nist"
     # specify that your theme is uswds
-    theme: uswds
+    theme: uswds-nist
     ```
 
 1. The theme will be downloaded the next time you run `hugo serve`.
@@ -45,5 +45,5 @@ From your project directory, create the submodule in the `themes/` folder:
 
 ```
 $ mkdir themes
-$ git submodule add https://github.com/usnistgov/hugo-uswds.git themes/uswds
+$ git submodule add https://github.com/usnistgov/hugo-uswds-nist.git themes/uswds-nist
 ```

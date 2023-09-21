@@ -20,5 +20,5 @@ module:
     target: static/module/hugo-uswds-nist/css
   imports:
   - path: github.com/usnistgov/hugo-uswds
-  replacements: |
-    github.com/usnistgov/hugo-uswds -> ../hugo-uswds
+#  replacements: |
+#    github.com/usnistgov/hugo-uswds -> ../hugo-uswds
